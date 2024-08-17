@@ -24,7 +24,7 @@ class BankAccount(private val accountNumber: String, private var balance: Double
             balance -= amount
             println("Withdrawal successful. New balance: $balance")
         } else {
-            println("Invalid withdrawal amount or insufficient funds.")
+            println("Invalid withdrawal")
         }
     }
 
