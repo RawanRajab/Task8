@@ -20,7 +20,7 @@ class Employee(private val employeeId: Int, private var name: String, private va
         if (newSalary >= 0) {
             salary = newSalary
         } else {
-            println("Invalid salary. Salary must be non-negative.")
+            println("Invalid salary.")
         }
     }
 
